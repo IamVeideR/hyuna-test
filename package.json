@@ -1,0 +1,40 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-image": "^4.4.1",
+    "gulp-install": "^1.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tinypng": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamVeideR/template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamVeideR/template/issues"
+  },
+  "homepage": "https://github.com/IamVeideR/template#readme",
+  "description": "",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

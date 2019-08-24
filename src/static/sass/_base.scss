@@ -1,0 +1,48 @@
+body {
+}
+
+body * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+a {
+}
+
+p {
+}
+
+h1 {
+}
+
+.base-button {
+}
+
+.base-button:hover {
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1160px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.active {
+}
+
+
+@media (max-width: $desktop) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .container {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
